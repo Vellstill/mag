@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.logo-pic{
+    background: url(/images/logo.jpg) center center / contain no-repeat;
+    padding: 25px;
+    margin-right: 35px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    line-height: 110px;
+    margin: 0 30px;
+    border-bottom: 1px solid gray;
+}
+.header a{
+    margin: 30px 15px;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: "Myriad Pro";
+    color: rgb(48, 48, 48);
+}
+.header a:hover{
+    border-bottom: 2px solid black;
+}
+.navigation{
+    display: flex;
+}
+.navigation a:first-child{
+    margin-right: 35px;
+}
+.login::before{
+    position: absolute;
+    content: "";
+    background: url(/images/account.png) center center / contain no-repeat;
+    padding: 15px;
+    left:-15px;
+    top:0;
+    bottom: 0;
+}
+.bascet::before{
+    position: absolute;
+    content: "";
+    background: url(/images/bascet.png) center center / contain no-repeat;
+    padding: 15px;
+    left:-15px;
+    top:0;
+    bottom: 0;
+}
+.client{
+    display: flex;
+}
+.client-login{
+    position: relative;
+    margin-right: 50px;
+}
+.client-bascet{
+    position: relative;
+}
