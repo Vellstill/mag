@@ -101,5 +101,176 @@
     }
 }
 
+//main-page
 
+.top{
+    margin-top: 150px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-family: "Myriad Pro";
+    h1{
+        font-size: 72px;
+        color: rgb(48, 48, 48);
+        font-weight: 300;
+    }
+    h4{
+        font-family: "Georgia Italic";
+        font-size: 24px;
+        color: rgb(96, 96, 96);
+        font-style: italic;
+          
+    }
+}
+.new-btn{
+    margin-top: 50px;
+    border: 1px solid rgb(48, 48, 48);
+    width: 220px;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 60px;
+    
+    a{
+        text-decoration: none;
+        font-size: 14px;
+        font-family: "Myriad Pro";
+        color: rgb(48, 48, 48);
+        padding: 23px 35px;
+    }
+}
+.bottom{
+    margin-top: 60px;
+    margin-bottom: 300px;
+    text-align: center;
+    font-family: "Myriad Pro";
+    h2{
+        font-size: 40px;
+        color: rgb(48, 48, 48);
+        font-weight: 300;
+    }
+    h4{
+        font-family: "Georgia Italic";
+        font-size: 24px;
+        color: rgb(96, 96, 96);
+        font-style: italic;
+          
+    }
+}
+.submit-btn{
+    background-color: orange;
+    color: white;
+    height: 57px;
+    width: 135px;
+    margin-left: -5px;
+    font-size: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+}
+.email-input{
+    height: 55px;
+    width: 475px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    padding-left: 15px;
+    font-size: 20px;
+    
+}
+  
+//main-pic
+
+.container-fluid{
+    margin: 0 30px !important;
+}
+
+.attention{
+    background: url(/images/main/attention-sign-outline.png) center center / contain no-repeat;
+    padding: 15px;
+    
+}
+.attention:before{
+    content: "";
+    position: absolute;
+    border: 1px solid white;
+    width: 25px;
+    left:150px;
+}
+.attention:after{
+    content: "";
+    position: absolute;
+    border: 1px solid white;
+    width: 25px;
+    right:150px;
+}
+.first{
+    background: url(/images/main/1.jpg) center center / cover no-repeat;
+    height: 800px;
+}
+.second{
+    background-color: #bbbbbb;
+    height: 400px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    p{
+        margin-top: 25px;
+        font-size: 14px;
+        font-family: "Georgia Italic";
+        color:white;
+        padding: 0 35px;
+    }
+    
+}
+.third{
+    background: url(/images/main/3.jpg) center center / cover no-repeat;
+    height: 400px;
+}
+.fourth{
+    background-color: #606060;
+    height: 400px;
+}
+.fifth{
+    background: url(/images/main/2.jpg) center center / cover no-repeat;
+    height: 400px;
+}
+.sixth{
+    background-color: #bbbbbb;
+    height: 400px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    p{
+        margin-top: 25px;
+        font-size: 14px;
+        font-family: "Georgia Italic";
+        color:white;
+        padding: 0 35px;
+    }
+}
+.seventh{
+    background: url(/images/main/4.jpg) center center / cover no-repeat;
+    height: 800px;
+    margin-top: -400px;
+}
+.eighth{
+    background: url(/images/main/5.jpg) center center / cover no-repeat;
+    height: 400px;
+}
+.ninth{
+    background-color: #606060;
+    height: 400px;   
+}
+.tenth{
+    background: url(/images/main/6.jpg) center center / cover no-repeat;
+    height: 400px;
+}
+
+@font-face {
+    font-family: 'Georgia Italic';
+    src: url('Georgia-Italic.eot');
+    src: url('Georgia-Italic.eot?#iefix') format('embedded-opentype'),
+    url('Georgia-Italic.woff') format('woff'),
+    url('Georgia-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
     
