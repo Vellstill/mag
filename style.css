@@ -313,6 +313,111 @@
   height: 400px;
 }
 
+.head {
+  margin-top: 60px;
+  text-align: center;
+  font-family: "Myriad Pro";
+}
+
+.head h2 {
+  font-size: 40px;
+  color: #303030;
+  font-weight: 300;
+}
+
+.head h4 {
+  font-family: "Georgia Italic";
+  font-size: 24px;
+  color: #606060;
+  font-style: italic;
+}
+
+.sum {
+  text-align: right;
+  padding-right: 300px;
+}
+
+.delivery {
+  text-align: center;
+  font-family: "Myriad Pro";
+}
+
+.delivery h2 {
+  font-size: 40px;
+  color: #303030;
+  font-weight: 300;
+}
+
+.delivery h4 {
+  font-family: "Georgia Italic";
+  font-size: 24px;
+  color: #606060;
+  font-style: italic;
+}
+
+.order-form-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  max-width: 50%;
+  margin-right: auto;
+  margin-left: auto;
+  line-height: 3;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.order-form-top .input-box {
+  margin-bottom: 50px;
+  width: 45%;
+  position: relative;
+}
+
+.order-form-top .input-box .user-input {
+  width: 100%;
+}
+
+.order-form-top .input-box .label-text {
+  position: absolute;
+  top: -30px;
+}
+
+.order-form-top .user-input-max {
+  width: 100%;
+  line-height: 3;
+}
+
+.order-form-top select {
+  margin-right: auto;
+  margin-left: auto;
+  width: 95%;
+  margin-bottom: 50px;
+  height: 40px;
+}
+
+.order-form-top .input-box.max {
+  width: 95%;
+  margin-bottom: 50px;
+  line-height: 3;
+}
+
+.order-form-bottom {
+  max-width: 50%;
+  margin-right: auto;
+  margin-left: auto;
+  line-height: 3;
+}
+
+.order-form-bottom select {
+  margin-right: auto;
+  margin-left: auto;
+  width: 95%;
+  margin-bottom: 50px;
+  height: 40px;
+}
+
 @font-face {
   font-family: 'Georgia Italic';
   src: url("Georgia-Italic.eot");

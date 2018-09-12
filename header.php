@@ -26,7 +26,7 @@
                 <a href="#" class = "login">Войти</a>
             </div>
             <div class = "client-bascet">
-                <a href="#" class="bascet">Корзина</a>
+                <a href="/shopping_cart.php" class="bascet">Корзина</a>
             </div>
         </div>
     </div>
