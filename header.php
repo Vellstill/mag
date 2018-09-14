@@ -15,10 +15,10 @@
     <div class = "header">
         <nav class = "navigation">
             <a href="" class="logo-pic"></a>
-            <div class = "nav"><a href="#">Женщинам</a></div>
-            <div class = "nav"><a href="#">Мужчинам</a></div>
-            <div class = "nav"><a href="#">Детям</a></div>
-            <div class = "nav"><a href="#">Новинки</a></div>
+            <div class = "nav"><a href="/category.php?cat=women">Женщинам</a></div>
+            <div class = "nav"><a href="/category.php?cat=men">Мужчинам</a></div>
+            <div class = "nav"><a href="/category.php?cat=kid">Детям</a></div>
+            <div class = "nav"><a href="/category.php?cat=new">Новинки</a></div>
             <div class = "nav"><a href="#">О нас</a></div>
         </nav>
         <div class="client">
