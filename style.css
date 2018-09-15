@@ -504,6 +504,15 @@
   }
 }
 
+@media (max-width: 770px) {
+  .second-sm {
+    display: none;
+  }
+  .sixth-sm {
+    display: none;
+  }
+}
+
 .head {
   margin-top: 60px;
   text-align: center;
