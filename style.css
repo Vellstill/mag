@@ -253,9 +253,17 @@
   padding: 0 35px;
 }
 
+.second-sm {
+  display: none;
+}
+
 .third {
   background: url(/images/main/3.jpg) center center/cover no-repeat;
   height: 400px;
+}
+
+.third-sm {
+  display: none;
 }
 
 .fourth {
@@ -292,15 +300,42 @@
   padding: 0 35px;
 }
 
+.sixth-sm {
+  display: none;
+}
+
 .seventh {
   background: url(/images/main/4.jpg) center center/cover no-repeat;
   height: 800px;
   margin-top: -400px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.seventh p {
+  margin-top: 25px;
+  font-size: 14px;
+  font-family: "Georgia Italic";
+  color: white;
+  padding: 0 35px;
 }
 
 .eighth {
   background: url(/images/main/5.jpg) center center/cover no-repeat;
   height: 400px;
+}
+
+.eighth-sm {
+  display: none;
 }
 
 .ninth {
@@ -311,6 +346,162 @@
 .tenth {
   background: url(/images/main/6.jpg) center center/cover no-repeat;
   height: 400px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.tenth p {
+  margin-top: 25px;
+  font-size: 14px;
+  font-family: "Georgia Italic";
+  color: white;
+  padding: 0 35px;
+}
+
+@media (max-width: 990px) {
+  .first {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    height: 400px;
+    text-align: center;
+  }
+  .first p {
+    margin-top: 25px;
+    font-size: 14px;
+    font-family: "Georgia Italic";
+    color: white;
+    padding: 0 35px;
+  }
+  .second {
+    display: none;
+  }
+  .second-sm {
+    display: inline;
+    background-color: #bbbbbb;
+    text-align: center;
+  }
+  .second-sm p {
+    margin-top: 25px;
+    font-size: 14px;
+    font-family: "Georgia Italic";
+    color: white;
+    padding: 0 35px;
+  }
+  .third {
+    display: none;
+  }
+  .third-sm {
+    background: url(/images/main/3.jpg) center center/cover no-repeat;
+    height: 400px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+  }
+  .third-sm p {
+    margin-top: 25px;
+    font-size: 14px;
+    font-family: "Georgia Italic";
+    color: white;
+    padding: 0 35px;
+  }
+  .fourth {
+    display: none;
+  }
+  .fifth {
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .fifth p {
+    margin-top: 25px;
+    font-size: 14px;
+    font-family: "Georgia Italic";
+    color: white;
+    padding: 0 35px;
+  }
+  .sixth {
+    display: none;
+  }
+  .sixth-sm {
+    display: inline;
+    background-color: #bbbbbb;
+    text-align: center;
+  }
+  .sixth-sm p {
+    margin-top: 25px;
+    font-size: 14px;
+    font-family: "Georgia Italic";
+    color: white;
+    padding: 0 35px;
+  }
+  .eighth {
+    display: none;
+  }
+  .eighth-sm {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background: url(/images/main/5.jpg) center center/cover no-repeat;
+    height: 400px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+  }
+  .eighth-sm p {
+    margin-top: 25px;
+    font-size: 14px;
+    font-family: "Georgia Italic";
+    color: white;
+    padding: 0 35px;
+  }
+  .seventh {
+    height: 400px;
+    margin-top: initial;
+  }
+  .eighth {
+    display: none;
+  }
+  .ninth {
+    display: none;
+  }
 }
 
 .head {

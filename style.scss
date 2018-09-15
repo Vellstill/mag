@@ -219,9 +219,15 @@
     }
     
 }
+.second-sm{
+    display: none;
+}
 .third{
     background: url(/images/main/3.jpg) center center / cover no-repeat;
     height: 400px;
+}
+.third-sm{
+    display: none;
 }
 .fourth{
     background-color: #606060;
@@ -246,14 +252,31 @@
         padding: 0 35px;
     }
 }
+.sixth-sm{
+    display: none;
+}
 .seventh{
     background: url(/images/main/4.jpg) center center / cover no-repeat;
     height: 800px;
     margin-top: -400px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    p{
+        margin-top: 25px;
+        font-size: 14px;
+        font-family: "Georgia Italic";
+        color:white;
+        padding: 0 35px;
+    }
 }
 .eighth{
     background: url(/images/main/5.jpg) center center / cover no-repeat;
     height: 400px;
+}
+.eighth-sm{
+    display: none;
 }
 .ninth{
     background-color: #606060;
@@ -262,8 +285,129 @@
 .tenth{
     background: url(/images/main/6.jpg) center center / cover no-repeat;
     height: 400px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    p{
+        margin-top: 25px;
+        font-size: 14px;
+        font-family: "Georgia Italic";
+        color:white;
+        padding: 0 35px;
+    }
 }
 
+@media(max-width:990px){
+    .first{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 400px;
+        text-align: center;
+        p{
+            margin-top: 25px;
+            font-size: 14px;
+            font-family: "Georgia Italic";
+            color:white;
+            padding: 0 35px;
+        }
+    }
+    
+    .second{
+        display: none;
+    }
+    .second-sm{
+        display: inline;
+        background-color: #bbbbbb;
+        text-align: center;
+        p{
+            margin-top: 25px;
+            font-size: 14px;
+            font-family: "Georgia Italic";
+            color:white;
+            padding: 0 35px;
+        }
+    }
+    .third{
+        display: none;
+    }
+    .third-sm{
+        background: url(/images/main/3.jpg) center center / cover no-repeat;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        p{
+            margin-top: 25px;
+            font-size: 14px;
+            font-family: "Georgia Italic";
+            color:white;
+            padding: 0 35px;
+        }
+    }
+    .fourth{
+        display: none;
+    }
+    .fifth{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        p{
+            margin-top: 25px;
+            font-size: 14px;
+            font-family: "Georgia Italic";
+            color:white;
+            padding: 0 35px;
+        }
+    }
+    
+    .sixth{
+        display: none;
+    }
+    .sixth-sm{
+        display: inline;
+        background-color: #bbbbbb;
+        text-align: center;
+        p{
+            margin-top: 25px;
+            font-size: 14px;
+            font-family: "Georgia Italic";
+            color:white;
+            padding: 0 35px;
+        }
+    }
+    .eighth{
+        display: none;
+    }
+    .eighth-sm{
+        display: flex;
+        background: url(/images/main/5.jpg) center center / cover no-repeat;
+        height: 400px;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        p{
+            margin-top: 25px;
+            font-size: 14px;
+            font-family: "Georgia Italic";
+            color:white;
+            padding: 0 35px;
+        }
+    }
+    .seventh{
+        height: 400px;
+        margin-top: initial;
+    }
+    .eighth{
+        display: none;
+    }
+    .ninth{
+        display: none;
+    }
+}
 //shopping_cart
 
 .head{

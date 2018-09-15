@@ -10,7 +10,14 @@ include "header.php"
 </div>
 <div class="container-fluid">
     <div class="row">
-        <div class="col-lg-3 col-md-3 col-sm-6 first"></div>
+        <div class="col-lg-3 col-md-3 col-sm-6 first">
+            <p>
+                ДЖИНСОВЫЕ КУРТКИ
+            </p>
+        </div>
+        <div class="col-sm-6 third-sm">
+            <p>ЭЛЕГАНТНАЯ ОБУВЬ</p>
+        </div>
         <div class="col-lg-3 col-md-3 col-sm-6 second">
             <div class="attention"></div>
             <p>
@@ -18,11 +25,32 @@ include "header.php"
             </p>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-6 third"></div>
+            <div class="col-sm-12 second-sm">
+                <div class="attention"></div>
+                <p>
+                    каждый сезон мы подготавливаем для Вас исключительно лучшую модную одежду. Следит за нашими новинками
+                </p>
+            </div>
         <div class="col-lg-3 col-md-3 col-sm-6 fourth">
-
+            <p>ЭЛЕГАНТНАЯ ОБУВЬ</p>
         </div>
-        <div class="col-lg-3 col-md-3 col-sm-6 fifth"></div>
+        <div class="col-lg-3 col-md-3 col-sm-6 fifth">
+            <p>
+                ДЖИНСЫ
+            </p>
+        </div>
         <div class="col-lg-3 col-md-3 col-sm-6 sixth">
+            <div class="attention"></div>
+            <p>
+                Самые низкие цены в Москве.Нашли дешевле? Вернем разницу.
+            </p>
+        </div>
+        <div class="col-sm-6 eighth-sm">
+            <p>
+                АКСЕССУАРЫ
+            </p>
+        </div>
+        <div class="col-sm-12 sixth-sm">
             <div class="attention"></div>
             <p>
                 Самые низкие цены в Москве.Нашли дешевле? Вернем разницу.
@@ -32,10 +60,18 @@ include "header.php"
     <div class="row">
         <div class="col-lg-3 col-md-3 col-sm-6 eighth"></div>
         <div class="col-lg-3 col-md-3 col-sm-6 ninth">
-
+            <p>стрелка вправо</p>
         </div>
-        <div class="col-lg-3 col-md-3 tenth"></div>
-        <div class="col-lg-3 col-md-3 seventh"></div>
+        <div class="col-lg-3 col-md-3 col-sm-6 tenth">
+            <p>
+                СПОРТИВНАЯ ОДЕЖДА
+            </p>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-6 seventh">
+            <p>
+                ДЕТСКАЯ ОДЕЖДА
+            </p>
+        </div>
     </div>
 </div>
 <div class="bottom">
