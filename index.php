@@ -10,19 +10,19 @@ include "header.php"
 </div>
 <div class="container-fluid">
     <div class="row">
-        <div class="col-lg-3 first"></div>
-        <div class="col-lg-3 second">
+        <div class="col-lg-3 col-md-3 col-sm-6 first"></div>
+        <div class="col-lg-3 col-md-3 col-sm-6 second">
             <div class="attention"></div>
             <p>
                 каждый сезон мы подготавливаем для Вас исключительно лучшую модную одежду. Следит за нашими новинками
             </p>
         </div>
-        <div class="col-lg-3 third"></div>
-        <div class="col-lg-3 fourth">
+        <div class="col-lg-3 col-md-3 col-sm-6 third"></div>
+        <div class="col-lg-3 col-md-3 col-sm-6 fourth">
 
         </div>
-        <div class="col-lg-3 fifth"></div>
-        <div class="col-lg-3 sixth">
+        <div class="col-lg-3 col-md-3 col-sm-6 fifth"></div>
+        <div class="col-lg-3 col-md-3 col-sm-6 sixth">
             <div class="attention"></div>
             <p>
                 Самые низкие цены в Москве.Нашли дешевле? Вернем разницу.
@@ -30,12 +30,12 @@ include "header.php"
         </div>
     </div>
     <div class="row">
-        <div class="col-lg-3 eighth"></div>
-        <div class="col-lg-3 ninth">
+        <div class="col-lg-3 col-md-3 col-sm-6 eighth"></div>
+        <div class="col-lg-3 col-md-3 col-sm-6 ninth">
 
         </div>
-        <div class="col-lg-3 tenth"></div>
-        <div class="col-lg-3 seventh"></div>
+        <div class="col-lg-3 col-md-3 tenth"></div>
+        <div class="col-lg-3 col-md-3 seventh"></div>
     </div>
 </div>
 <div class="bottom">

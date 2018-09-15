@@ -29,4 +29,8 @@
                 <a href="/shopping_cart.php" class="bascet">Корзина</a>
             </div>
         </div>
+        <div class="reg">
+            <div class = "login"></div>
+            <div class = "registr"></div>
+        </div>
     </div>
