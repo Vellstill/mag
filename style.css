@@ -29,6 +29,75 @@
   color: #303030;
 }
 
+.header .reg {
+  position: fixed;
+  width: 500px;
+  top: 25%;
+  left: 50%;
+  margin-left: -250px;
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: white;
+  z-index: 100;
+}
+
+.header .reg .enter {
+  line-height: 5;
+  text-align: center;
+  display: block;
+}
+
+.header .reg .enter input {
+  height: 50px;
+  width: 80%;
+  font-size: 20px;
+}
+
+.header .reg .enter .submit-btn {
+  line-height: 1;
+}
+
+.header .reg .registration {
+  line-height: 5;
+  text-align: center;
+  display: none;
+}
+
+.header .reg .registration input {
+  height: 50px;
+  width: 80%;
+  font-size: 20px;
+}
+
+.header .reg .registration .submit-btn {
+  line-height: 1;
+}
+
+.header .reg .top-reg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 500px;
+  height: 70px;
+  border-bottom: 2px solid black;
+}
+
+.header .reg .top-reg .enter-btn {
+  width: 50%;
+  border-right: 2px solid black;
+  text-align: center;
+  line-height: 70px;
+  cursor: pointer;
+}
+
+.header .reg .top-reg .registration-btn {
+  cursor: pointer;
+  width: 50%;
+  border-right: 2px solid black;
+  text-align: center;
+  line-height: 70px;
+}
+
 .header a:hover {
   border-bottom: 2px solid black;
 }

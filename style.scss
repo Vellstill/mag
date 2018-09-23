@@ -23,6 +23,63 @@
         font-family: "Myriad Pro";
         color: rgb(48, 48, 48);
     }
+    .reg{
+        position: fixed;
+        width: 500px;
+        top:25%;
+        left:50%;
+        margin-left:-250px;
+        border: 2px solid black;
+        border-radius: 5px;
+        background-color: white;
+        z-index: 100;
+        .enter{
+            line-height: 5;
+            text-align: center;
+            display: block;
+            input{
+                height: 50px;
+                width: 80%;
+                font-size: 20px;
+            }
+            .submit-btn{
+                line-height: 1;
+            }
+        }
+        .registration{
+            line-height: 5;
+            text-align: center;
+            display: none;
+            input{
+                height: 50px;
+                width: 80%;
+                font-size: 20px;
+            }
+            .submit-btn{
+                line-height: 1;
+            }
+        }
+        .top-reg{
+            display: flex;
+            width: 500px;
+            height: 70px;
+            border-bottom: 2px solid black; 
+            .enter-btn{
+                width: 50%;
+                border-right: 2px solid black;
+                text-align: center;
+                line-height: 70px;
+                cursor: pointer;
+            }
+            .registration-btn{
+                cursor: pointer;
+                width: 50%;
+                border-right: 2px solid black;
+                text-align: center;
+                line-height: 70px;
+            }
+        }
+    }
 }
 
 .header a:hover{

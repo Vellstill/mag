@@ -30,7 +30,21 @@
             </div>
         </div>
         <div class="reg">
-            <div class = "login"></div>
-            <div class = "registr"></div>
+            <div class = "top-reg">
+                <div class = "enter-btn">ВХОД</div>
+                <div class = "registration-btn">РЕГИСТРАЦИЯ</div>
+            </div>
+            <form action="" method="post" class="enter">
+                <input type="text" name="login" placeholder="ЛОГИН"> <br>
+                <input type="password" name="password" placeholder="ПАРОЛЬ"> <br>
+                <button type="submit" class = "submit-btn" >Войти</button>
+            </form>
+            <form action="" method="post" class="registration">
+                <input type="text" name="login" placeholder="ЛОГИН"> <br>
+                <input type="text" name="email" placeholder="EMAIL"> <br>
+                <input type="password" name="password" placeholder="ПАРОЛЬ"> <br>
+                <input type="password" name="password" placeholder="ПОВТОРИТЕ ПАРОЛЬ"> <br>
+                <button type="submit" class = "submit-btn" >Регистрация</button>
+            </form>
         </div>
     </div>
